@@ -1,9 +1,13 @@
 import './userList.css';
 import { DataGrid } from '@material-ui/data-grid';
 import { DeleteOutline } from '@material-ui/icons';
+import { userRows } from '../../dummyData';
+import { Link } from 'react-router-dom';
+import { useState } from 'react';
 
-const UserList = () => {
-  const columns = [
+const UserList = () => { 
+  const [data, setData] = useState(userRows)
+  const userColumns = [
     { field: 'id', headerName: 'ID', width: 90 },
     { field: 'user', headerName: 'User', width: 160, renderCell: (params)=> {
       return (
@@ -19,54 +23,23 @@ const UserList = () => {
     { field: 'action', headerName: 'Action', width: 160, renderCell: (params) => {
       return (
         <>
-          <button className='userListEdit'>Edit</button>
-          <DeleteOutline className='userListDelete' />
+          <Link to={'/user/'+params.row.id}>
+            <button className='userListEdit'>Edit</button>
+          </Link>
+          
+          <DeleteOutline className='userListDelete' onClick={()=>handleDelete(params.row.id)} />
         </>
       )
     } },
   ];
-  
-  const rows = [
-    { id: 1, 
-      username: 'Emmanuel Joatham', 
-      avatar: '/images/ejoka.png',
-      email: 'emmanuelkamala86@gmail.com',
-      status: 'active',
-      transaction: '$120.00'
-    },
-    { id: 2, 
-      username: 'Emmanuel Joatham', 
-      avatar: '/images/ejoka.png',
-      email: 'emmanuelkamala86@gmail.com',
-      status: 'active',
-      transaction: '$120.00'
-    },
-    { id: 3, 
-      username: 'Emmanuel Joatham', 
-      avatar: '/images/ejoka.png',
-      email: 'emmanuelkamala86@gmail.com',
-      status: 'active',
-      transaction: '$120.00'
-    },
-    { id: 4, 
-      username: 'Emmanuel Joatham', 
-      avatar: '/images/ejoka.png',
-      email: 'emmanuelkamala86@gmail.com',
-      status: 'active',
-      transaction: '$120.00'
-    },
-    { id: 5, 
-      username: 'Emmanuel Joatham', 
-      avatar: '/images/ejoka.png',
-      email: 'emmanuelkamala86@gmail.com',
-      status: 'active',
-      transaction: '$120.00'
-    },
-  ];
-  
+
+  const handleDelete = (id) => {
+    setData(data.filter(item => item.id !== id))
+  }
+
   return (
     <div className='userList'>
-      <DataGrid rows={rows} disableSelectionOnClick columns={columns} pageSize={4} checkboxSelection />
+      <DataGrid rows={data} disableSelectionOnClick columns={userColumns} pageSize={10} checkboxSelection />
     </div>
   )
 }
