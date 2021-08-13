@@ -1,5 +1,6 @@
 import './sidebar.css';
 import { AttachMoney, ChatBubbleOutline, DynamicFeed, Equalizer, LineStyle, LocalGroceryStoreOutlined, MailOutline, PersonOutline, Report, Timeline, TrendingUp, WorkOutline } from '@material-ui/icons';
+import { Link } from 'react-router-dom';
 
 const Sidebar = () => {
   return (
@@ -23,7 +24,7 @@ const Sidebar = () => {
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-              <PersonOutline className="sidebarIcon" />Users
+             
             </li>
             <li className="sidebarListItem">
               <LocalGroceryStoreOutlined className="sidebarIcon" />Products

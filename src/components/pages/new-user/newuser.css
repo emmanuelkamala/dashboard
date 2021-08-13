@@ -1,5 +1,6 @@
 .newUser {
   flex: 4;
+  margin: 30px;
 }
 
 .newUserForm {
@@ -18,7 +19,7 @@
 .newUserItem>label{
   margin-bottom: 10px;
   font-weight: 600;
-  color: rgb(183, 199, 214);
+  color: rgb(127, 135, 143);
 }
 
 .newUserItem>input {
@@ -31,7 +32,7 @@
 .newUserGender>label {
   margin: 10px;
   font-size: 15px;
-  color: rgb(183, 199, 214);
+  color: rgb(134, 138, 141);
 }
 
 .newUserGender>input {
@@ -41,4 +42,17 @@
 .newUserSelect {
   height: 40px;
   border-radius: 5px;
+}
+
+.newUserButton {
+  width: 200px;
+  height: 30px;
+  border: none;
+  background-color: rgb(1, 141, 141);
+  color: whitesmoke;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 7px 10px;
+  font-weight: 600;
+  margin-top: 30px;
 }
