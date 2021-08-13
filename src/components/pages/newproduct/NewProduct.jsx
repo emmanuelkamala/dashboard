@@ -6,11 +6,12 @@ function NewProduct() {
     <div className="newProduct">
       <h1 className="newProductTitle">New Product</h1>
       <form className="productForm">
-      <div className="newProductItem">
-          <label>Image</label>
-          <img src="/images/s9.png" alt="product uploaded" className="productUploadImg" />
+       
+        <label>Image</label>
+        <div className="newProductImg">
+          <img src="/images/s9.png" alt="product" className="productUploadImg" />
           <label for="file">
-            <Publish />
+            <Publish className='newProductIcon' />
           </label>
           <input type="file" id="file" style={{ display: 'none' }} />
         </div>
