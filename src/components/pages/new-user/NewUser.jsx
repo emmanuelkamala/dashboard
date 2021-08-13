@@ -31,6 +31,22 @@ function NewUser() {
           <label>Address</label>
           <input type="text" placeholder="Enter your address" />
         </div>
+        <div className="newUserItem">
+          <label>Gender</label>
+          <div className="newUserGender">
+            <input type="radio" name="gender" id="male" value="male" />
+            <label for="male">Male</label>
+            <input type="radio" name="female" id="female" value="female" />
+            <label for="female">Female</label>
+          </div>
+        </div>
+        <div className="newUserItem">
+          <label>Active</label>
+          <select name="active" id="active" className="newUserSelect">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </div>
       </form>
     </div>
   )
