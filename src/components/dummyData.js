@@ -130,3 +130,80 @@ export const userRows = [
     transaction: '$120.00'
   },
 ];
+
+export const productRows = [
+  { id: 1, 
+    name: 'Samsung Galaxy S9', 
+    img: '/images/s9.png',
+    stock: 12,
+    status: 'active',
+    price: '$120.00'
+  },
+  { id: 2, 
+    name: 'Samsung Galaxy S9    avatar: '/images/salum.jpg',
+    img 'ibunhabibs9oo.com',
+  stocktu12on: '$120.00'
+  },
+  { id: 3price: 'Samsung Galaxy S9', 
+    img: '/images/s9.png',
+    stock: 12,
+    status: 'active',
+    price: '$120.00'
+  },
+  { id: 4, 
+    name: 'Samsung Galaxy S9', 
+    img: '/images/s9.png',
+    stock: 12,
+    status: 'active',
+    price: '$120.00'
+  },
+  { id: 5, 
+    name: 'Samsung Galaxy S9', 
+    img: '/images/s9.png',
+    stock: 12,
+    status: 'active',
+    price: '$120.00'
+  },
+  { id: 6, 
+    name: 'Samsung Galaxy S9', 
+    img: '/images/s9.png',
+    stock: 12,
+    status: 'active',
+    price: '$120.00'
+  },
+  { id: 7, 
+    name: 'Samsung Galaxy S9', 
+    img: '/images/s9.png',
+    stock: 12,
+    status: 'active',
+    price: '$120.00'
+  },
+  { id: 8, 
+    name: 'Samsung Galaxy S9', 
+    img: '/images/s9.png',
+    stock: 12,
+    status: 'active',
+    price: '$120.00'
+  },
+  { id: 9, 
+    name: 'Samsung Galaxy S9', 
+    img: '/images/s9.png',
+    stock: 12,
+    status: 'active',
+    price: '$120.00'
+  },
+  { id: 10, 
+    name: 'Samsung Galaxy S9', 
+    img: '/images/s9.png',
+    stock: 12,
+    status: 'active',
+    price: '$120.00'
+  },
+  { id: 11, 
+    name: 'Samsung Galaxy S9', 
+    img: '/images/s9.png',
+    stock: 12,
+    status: 'active',
+    price: '$120.00'
+  },
+]
