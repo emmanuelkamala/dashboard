@@ -1,4 +1,17 @@
-
+export const productData = [
+  {
+    name: 'Jan',
+    'Sales': 1400,
+  },
+  {
+    name: 'Feb',
+    'Sales': 3000,
+  },
+  {
+    name: 'Mar',
+    'Sales': 2000,
+  },
+]
 
 export const userData = [
   {
