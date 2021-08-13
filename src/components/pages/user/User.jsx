@@ -32,7 +32,7 @@ function User() {
             <span className="userShowTitle">Contact Details</span>
             <div className="userShowInfo">
               <PhoneAndroid className="userShowInfoIcon" />
-              <span className="userShowInfoTitle">+255678794479</span>
+              <span className="userShowInfoTitle">+2555555555</span>
             </div>
             <div className="userShowInfo">
               <EmailOutlined className="userShowInfoIcon" />
@@ -45,7 +45,34 @@ function User() {
             
           </div>
         </div>
-        <div className="userUpdate"></div>
+        <div className="userUpdate">
+          <span className="userUpdateTitle">Edit</span>
+          <form className="userUpdateForm">
+            <div className="userUpdateLeft">
+              <div className="userUpdateItem">
+                <label>Full Name</label>
+                <input type="text" placeholder="Emmanuel Joatham" className="userUpdateInput"></input>
+              </div>
+              <div className="userUpdateItem">
+                <label>Username</label>
+                <input type="text" placeholder="ejoka" className="userUpdateInput"></input>
+              </div>
+              <div className="userUpdateItem">
+                <label>Email</label>
+                <input type="text" placeholder="ejoka@gmail.com" className="userUpdateInput"></input>
+              </div>
+              <div className="userUpdateItem">
+                <label>Phone</label>
+                <input type="text" placeholder="+25555555555" className="userUpdateInput"></input>
+              </div>
+              <div className="userUpdateItem">
+                <label>Address</label>
+                <input type="text" placeholder="Dar es salaam | Tanzania" className="userUpdateInput"></input>
+              </div>
+            </div>
+            <div className="userUpdateRight"></div>
+          </form>
+        </div>
       </div>
     </div>
   )
