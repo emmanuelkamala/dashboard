@@ -24,7 +24,9 @@ const Sidebar = () => {
           <h3 className="sidebarTitle">Quick Menu</h3>
           <ul className="sidebarList">
             <li className="sidebarListItem">
-             
+              <Link to='/users'>
+                <PersonOutline className="sidebarIcon" />Users
+              </Link>
             </li>
             <li className="sidebarListItem">
               <LocalGroceryStoreOutlined className="sidebarIcon" />Products
