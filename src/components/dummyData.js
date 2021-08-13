@@ -140,11 +140,14 @@ export const productRows = [
     price: '$120.00'
   },
   { id: 2, 
-    name: 'Samsung Galaxy S9    avatar: '/images/salum.jpg',
-    img 'ibunhabibs9oo.com',
-  stocktu12on: '$120.00'
+    name: 'Samsung Galaxy S9',    
+    img: '/images/s9.png',
+    stock: 12,
+    status: 'active',
+    price: '$120.00'
   },
-  { id: 3price: 'Samsung Galaxy S9', 
+  { id: 3,
+    name: 'Samsung Galaxy S9', 
     img: '/images/s9.png',
     stock: 12,
     status: 'active',
