@@ -9,7 +9,7 @@ const UserList = () => {
   const [data, setData] = useState(userRows)
   const userColumns = [
     { field: 'id', headerName: 'ID', width: 90 },
-    { field: 'user', headerName: 'User', width: 160, renderCell: (params)=> {
+    { field: 'user', headerName: 'User', width: 250, renderCell: (params)=> {
       return (
         <div className='userListUser'>
           <img src={params.row.avatar} alt="avatar" className='userListImg' />

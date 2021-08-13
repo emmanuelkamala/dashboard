@@ -70,77 +70,77 @@ export const userRows = [
     avatar: '/images/ejoka.png',
     email: 'emmanuelkamala@yahoo.com',
     status: 'active',
-    transaction: '$120.00'
+    transaction: '$250,000/='
   },
   { id: 2, 
     username: 'Salum Habibu', 
     avatar: '/images/salum.jpg',
     email: 'ibunhabibu@yahoo.com',
     status: 'active',
-    transaction: '$120.00'
+    transaction: '$250,000/='
   },
   { id: 3, 
     username: 'Emmanuel Joatham', 
     avatar: '/images/ejoka.png',
     email: 'emmanuelkamala@yahoo.com',
     status: 'active',
-    transaction: '$120.00'
+    transaction: '$250,000/='
   },
   { id: 4, 
     username: 'Emmanuel Joatham', 
     avatar: '/images/ejoka.png',
     email: 'emmanuelkamala@yahoo.com',
     status: 'active',
-    transaction: '$120.00'
+    transaction: '$250,000/='
   },
   { id: 5, 
     username: 'Emmanuel Joatham', 
     avatar: '/images/ejoka.png',
     email: 'emmanuelkamala@yahoo.com',
     status: 'active',
-    transaction: '$120.00'
+    transaction: '$250,000/='
   },
   { id: 6, 
     username: 'Emmanuel Joatham', 
     avatar: '/images/ejoka.png',
     email: 'emmanuelkamala@yahoo.com',
     status: 'active',
-    transaction: '$120.00'
+    transaction: '$250,000/='
   },
   { id: 7, 
     username: 'Emmanuel Joatham', 
     avatar: '/images/ejoka.png',
     email: 'emmanuelkamala@yahoo.com',
     status: 'active',
-    transaction: '$120.00'
+    transaction: '$250,000/='
   },
   { id: 8, 
     username: 'Emmanuel Joatham', 
     avatar: '/images/ejoka.png',
     email: 'emmanuelkamala@yahoo.com',
     status: 'active',
-    transaction: '$120.00'
+    transaction: '$250,000/='
   },
   { id: 9, 
     username: 'Emmanuel Joatham', 
     avatar: '/images/ejoka.png',
     email: 'emmanuelkamala@yahoo.com',
     status: 'active',
-    transaction: '$120.00'
+    transaction: '$250,000/='
   },
   { id: 10, 
     username: 'Emmanuel Joatham', 
     avatar: '/images/ejoka.png',
     email: 'emmanuelkamala@yahoo.com',
     status: 'active',
-    transaction: '$120.00'
+    transaction: '$250,000/='
   },
   { id: 11, 
     username: 'Emmanuel Joatham', 
     avatar: '/images/ejoka.png',
     email: 'emmanuelkamala@yahoo.com',
     status: 'active',
-    transaction: '$120.00'
+    transaction: '$250,000/='
   },
 ];
 
@@ -150,76 +150,76 @@ export const productRows = [
     img: '/images/s9.png',
     stock: 12,
     status: 'active',
-    price: '$120.00'
+    price: '$250,000/='
   },
   { id: 2, 
     name: 'Samsung Galaxy S9',    
     img: '/images/s9.png',
     stock: 12,
     status: 'active',
-    price: '$120.00'
+    price: '$250,000/='
   },
   { id: 3,
     name: 'Samsung Galaxy S9', 
     img: '/images/s9.png',
     stock: 12,
     status: 'active',
-    price: '$120.00'
+    price: '$250,000/='
   },
   { id: 4, 
     name: 'Samsung Galaxy S9', 
     img: '/images/s9.png',
     stock: 12,
     status: 'active',
-    price: '$120.00'
+    price: '$250,000/='
   },
   { id: 5, 
     name: 'Samsung Galaxy S9', 
     img: '/images/s9.png',
     stock: 12,
     status: 'active',
-    price: '$120.00'
+    price: '$250,000/='
   },
   { id: 6, 
     name: 'Samsung Galaxy S9', 
     img: '/images/s9.png',
     stock: 12,
     status: 'active',
-    price: '$120.00'
+    price: '$250,000/='
   },
   { id: 7, 
     name: 'Samsung Galaxy S9', 
     img: '/images/s9.png',
     stock: 12,
     status: 'active',
-    price: '$120.00'
+    price: '$250,000/='
   },
   { id: 8, 
     name: 'Samsung Galaxy S9', 
     img: '/images/s9.png',
     stock: 12,
     status: 'active',
-    price: '$120.00'
+    price: '$250,000/='
   },
   { id: 9, 
     name: 'Samsung Galaxy S9', 
     img: '/images/s9.png',
     stock: 12,
     status: 'active',
-    price: '$120.00'
+    price: '$250,000/='
   },
   { id: 10, 
     name: 'Samsung Galaxy S9', 
     img: '/images/s9.png',
     stock: 12,
     status: 'active',
-    price: '$120.00'
+    price: '$250,000/='
   },
   { id: 11, 
     name: 'Samsung Galaxy S9', 
     img: '/images/s9.png',
     stock: 12,
     status: 'active',
-    price: '$120.00'
+    price: '$250,000/='
   },
 ]

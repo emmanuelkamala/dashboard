@@ -9,7 +9,7 @@ function ProductList() {
   const [data, setData] = useState(productRows);
   const productColumns = [
     { field: 'id', headerName: 'ID', width: 90 },
-    { field: 'product', headerName: 'Product', width: 160, renderCell: (params)=> {
+    { field: 'product', headerName: 'Product', width: 200, renderCell: (params)=> {
       return (
         <div className='productListItem'>
           <img src={params.row.img} alt="avatar" className='productListImg' />
@@ -17,7 +17,7 @@ function ProductList() {
         </div>
       )
     } },
-    { field: 'stock', headerName: 'Stock', width: 250 },
+    { field: 'stock', headerName: 'Stock', width: 120 },
     { field: 'status', headerName: 'Status', width: 160 },
     { field: 'price', headerName: 'Price', width: 160 },
     { field: 'action', headerName: 'Action', width: 160, renderCell: (params) => {
