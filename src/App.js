@@ -4,6 +4,7 @@ import './app.css';
 import Home from "./components/pages/home/Home";
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import UserList from "./components/pages/userList/UserList";
+import User from "./components/pages/user/User";
 
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
           </Route>
           <Route path='/users'>
             <UserList />
+          </Route>
+          <Route path='/user/:userId'>
+            <User />
           </Route>
         </Switch>
       </div>
