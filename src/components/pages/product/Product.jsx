@@ -66,6 +66,7 @@ function Product() {
               </label>
               <input type="file" id="file" style={{ display: 'none' }} />
             </div>
+            <button className="productButton">Update</button>
           </div>
         </form>
       </div>

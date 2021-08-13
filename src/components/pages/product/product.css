@@ -72,3 +72,60 @@
   -webkit-box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
   box-shadow: 0 0 15px -10px rgba(0, 0, 0, 0.75);
 }
+
+.productForm {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productFormLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.productFormLeft>label {
+  margin-bottom: 10px;
+  color: gray;
+}
+
+.productFormLeft>input {
+  margin-bottom: 10px;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.productFormLeft>select {
+  margin-bottom: 10px;
+
+}
+
+.productUploadImg {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.productFormRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.productUpload {
+  display: flex;
+  align-items: center;
+}
+
+.productButton {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: teal;
+  color: whitesmoke;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+}
