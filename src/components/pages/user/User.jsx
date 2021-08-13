@@ -1,4 +1,4 @@
-import { CalendarToday, EmailOutlined, LocationSearching, PermIdentity, PhoneAndroid } from '@material-ui/icons';
+import { CalendarToday, EmailOutlined, LocationSearching, PermIdentity, PhoneAndroid, Publish } from '@material-ui/icons';
 import './user.css';
 
 function User() {
@@ -70,7 +70,14 @@ function User() {
                 <input type="text" placeholder="Dar es salaam | Tanzania" className="userUpdateInput"></input>
               </div>
             </div>
-            <div className="userUpdateRight"></div>
+            <div className="userUpdateRight">
+              <div className="userUpdateUpload">
+                <img src="/images/ejoka.png" alt="update" className="userUpdateImg" />
+                <label htmlFor="file"><Publish className="userUpdateIcon" /></label>
+                <input type="file" id="file" style={{ display: 'none' }} />
+              </div>
+              <button className="userUpdateButton">Update</button>
+            </div>
           </form>
         </div>
       </div>
