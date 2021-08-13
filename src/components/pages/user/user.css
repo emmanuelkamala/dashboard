@@ -67,3 +67,28 @@
   font-weight: 300;
 }
 
+.userShowBottom {
+  margin-top: 20px;
+}
+
+.userShowTitle {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #a7a6a6;
+}
+
+.userShowInfo {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  color: #444;
+}
+
+.userShowInfoIcon {
+  font-size: 1rem !important;
+}
+
+.userShowInfoTitle {
+  margin-left: 20px;
+}
+

@@ -29,6 +29,7 @@ function User() {
               <CalendarToday className="userShowInfoIcon" />
               <span className="userShowInfoTitle">24.03.1986</span>
             </div>
+            <span className="userShowTitle">Contact Details</span>
             <div className="userShowInfo">
               <PhoneAndroid className="userShowInfoIcon" />
               <span className="userShowInfoTitle">+255678794479</span>
