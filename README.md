@@ -1,9 +1,9 @@
 # Admin Dashboard
 This is a frontend template for an admin dashboard. It can be connected with a backend and be used as dashboard for creating, adding, updating and deleting resources. I have created two sample resources i.e a User and a Product with their functionalities, but have also added other resources as a sample without their core functionalities. 
 
-![screenshot](./images/1.png)
-![screenshot](./images/2.png)
-![screenshot](./images/3.png)
+![screenshot](./public/images/1.png)
+![screenshot](./public/images/2.png)
+![screenshot](./public/images/3.png)
 
 # Live Link
 <a href="">Click Here</a>
@@ -27,8 +27,8 @@ Open your terminal or text editor and use next command
         cd dashboard
 
         # Running the app
-        - run 'npm install' to install dependencies
-        - npm start
+        ### run 'yarn install' to install dependencies
+        ### yarn start
 
 
 ## Opening the app
