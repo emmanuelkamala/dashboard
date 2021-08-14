@@ -6,7 +6,7 @@ This is a frontend template for an admin dashboard. It can be connected with a b
 ![screenshot](./public/images/3.png)
 
 # Live Link
-<a href="">Click Here</a>
+<a href="https://ejokadashboard.netlify.app/">Click Here</a>
 
 
 ## Built With
